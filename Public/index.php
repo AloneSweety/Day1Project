@@ -1,10 +1,10 @@
 <?php
 //set the db connection file
-require_once 'database.php';
+require_once 'dbconf.php';
 
 try{
 	//Query
-	$sql = "SELECT * FROM students";
+	$sql = "SELECT * FROM student";
 
 	//execute the query
 	$result = mysqli_query($connect,$sql);
